@@ -41,11 +41,10 @@
         </div>
         <div class="collapse navbar-collapse" id="toggle-main-nav">
             <ul class="nav navbar-nav">
-                <li><a href=" #">Home</a></li>
-                <li><a href="https://github.com/tedivm/stash">Github</a></li>
 
-                <li><a href="http://blog.tedivm.com">Blog</a></li>
-
+                {% for navsite in site.data.navigation %}
+                <li><a href="{{ navsite.website }}">{{ navsite.label }}</a></li>
+                {% endfor %}
 
             </ul>
         </div>
@@ -95,14 +94,18 @@
                 <img class="logo" src="images/tedivmGlider36.png" alt="Logo"/>
             </a></p>
             <!-- Begin Sidebar Section -->
+
+            {% for project in site.data.projects %}
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3>Test Panel Header</h3>
+                    <h3><a href="{{ project.website }}">{{ project.name }}</a></h3>
                 </div>
                 <div class="panel-body">
-                    Test Panel Contents
+                    {{ project.description }}
                 </div>
             </div>
+            {% endfor %}
+
             <!-- End Sidebar Section -->
         </div>
     </div>
