@@ -10,16 +10,20 @@
   website: https://github.com/tedivm/JShrink
   description: Javascript minifier in native php.
 
-
 - name: Fetch
   repo: Fetch
   username: tedivm
   website: https://github.com/tedivm/fetch
   description: IMAP library that makes reading email easy.
 
-
 - name: Stash Bundle
   repo: TedivmStashBundle
   username: tedivm
   website: https://github.com/tedivm/TedivmStashBundle
   description: The Stash Symfony Bundle.
+
+- name: DovecotTesting
+  repo: DovecotTesting
+  username: tedivm
+  website: https://github.com/tedivm/DovecotTesting
+  description: A resettable mail server for use in continious integration of email libraries.
