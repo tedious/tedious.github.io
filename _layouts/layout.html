@@ -52,39 +52,8 @@
 </nav>
 
 
-<!--
-<div class="related">
-    <h3>Navigation</h3>
-    <ul>
-        <li class="right" style="margin-right: 10px">
-            <a href="genindex.html" title="General Index"
-               accesskey="I">index</a></li>
-        <li class="right" >
-            <a href="Overview.html" title="Overview"
-               accesskey="N">next</a> |</li>
-        <li class="right" >
-            <a href="Contents.html" title="Stash Documentation"
-               accesskey="P">previous</a> |</li>
-        <li><a href="Contents.html">Stash 0.12.1 documentation</a> &raquo;</li>
-    </ul>
-</div>
--->
-
 <div class="container-wrapper">
 <div class="container-fluid">
-
-<!--
-<div class="top-links">
-    <ul class="breadcrumb pull-right">
-        <li>
-            <a href="Contents.html" title="previous chapter (use the left arrow)">&larr; Stash Documentation</a>
-            <span class="divider"></span>
-
-        </li>
-        <li><a href="Overview.html" title="next chapter (use the right arrow)">Overview &rarr;</a></li>
-    </ul>
-</div>
--->
 
 <div class="row document clearer">
 
@@ -92,13 +61,7 @@
     <div class="col-md-3 sphinxsidebar">
         <div class="sphinxsidebarwrapper">
 
-            <!--
-            <p class="logo"><a href="#">
-                <img class="logo" src="images/tedivmGlider36.png" alt="Logo"/>
-            </a></p>
-            -->
             <!-- Begin Sidebar Section -->
-
             {% for project in site.data.projects %}
             <div class="panel panel-default project" id="project-highlight-{{ project.name }}">
                 <div class="panel-heading">
@@ -129,11 +92,6 @@
     </div>
 
     <div class="col-md-9 body">
-
-
-
-
-
         <div class="section" id="content">
             {{ content }}
         </div>
@@ -168,7 +126,7 @@
 
 <script type="text/javascript">
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-29779027-1']);
+    _gaq.push(['_setAccount', '']);
     _gaq.push(['_trackPageview']);
     (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
