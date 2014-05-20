@@ -72,6 +72,9 @@ div.body h4 { font-size: 130%; }
 div.body h5 { font-size: 110%; }
 div.body h6 { font-size: 100%; }
 
+
+
+
 p {
   margin: 1em 0;
 }
@@ -853,4 +856,11 @@ span.eqno {
 
   div.body a, div.body a:hover{
     color: #428bca;
+  }
+
+  #site-logo {
+      margin-bottom: 8px;
+      margin-top: 12px;
+      max-height: 30px;
+
   }
