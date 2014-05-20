@@ -1,7 +1,5 @@
 - name: Git
-  label: Git
   website: https://github.com/tedious
 
 - name: Blog
-  label: Blog
   website: http://blog.tedivm.com

@@ -1,4 +1,8 @@
 title: Tedious Developments
-tagline: Building Boring Libraries So You Don't Have To
+tagline: Libraries That Prevent Boredom
 
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  smart_quotes: lsquo,rsquo,ldquo,rdquo

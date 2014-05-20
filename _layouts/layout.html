@@ -10,7 +10,8 @@
     <link rel="stylesheet" type="text/css" href="static/css/bootstrap-theme.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{{ page.title }}</title>
+
+    <title>{{ page.title }} - {{ site.tagline }}</title>
 
     <link rel="stylesheet" href="static/guzzle.css" type="text/css" />
     <link rel="stylesheet" href="static/pygments.css" type="text/css" />
@@ -43,7 +44,7 @@
             <ul class="nav navbar-nav">
 
                 {% for navsite in site.data.navigation %}
-                <li><a href="{{ navsite.website }}">{{ navsite.label }}</a></li>
+                <li><a href="{{ navsite.website }}">{{ navsite.name }}</a></li>
                 {% endfor %}
 
             </ul>
@@ -96,9 +97,15 @@
             <!-- Begin Sidebar Section -->
 
             {% for project in site.data.projects %}
-            <div class="panel panel-default">
+            <div class="panel panel-default project" id="project-highlight-{{ project.name }}">
                 <div class="panel-heading">
-                    <h3><a href="{{ project.website }}">{{ project.name }}</a></h3>
+                    <h3><a href="{{ project.website }}">{{ project.name }}</a>
+                        <div class="visible-md visible-lg pull-right" id="github-stars-{{ project.name }}">
+                            <iframe src="http://ghbtns.com/github-btn.html?user={{ project.username }}&repo={{ project.repo }}&type=watch&count=true&size=small"
+                                    allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
+                        </div>
+                    </h3>
+
                 </div>
                 <div class="panel-body">
                     {{ project.description }}
