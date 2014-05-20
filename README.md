@@ -1,7 +1,3 @@
-Tedious Developments
-====================
-
-### tedious developments
 
 Tedious Developments is an organization for the mature software projects that have been spawned from the brain of
 Robert Hafner (aka tedivm).
