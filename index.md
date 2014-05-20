@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: layout
 title: Tedious Developments
 ---
 

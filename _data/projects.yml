@@ -1,0 +1,4 @@
+- name: Fetch
+  repo: Fetch
+  website: https://github.com/tedivm/fetch
+  description: IMAP library that makes reading email easy.
