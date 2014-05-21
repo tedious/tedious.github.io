@@ -1,6 +1,6 @@
 - name: Stash
   repo: Stash
-  username: tedivm
+  username: tedious
   website: http://stash.tedivm.com
   description: The way to store your cache.
 
@@ -12,14 +12,14 @@
 
 - name: JShrink
   repo: JShrink
-  username: tedivm
-  website: https://github.com/tedivm/JShrink
+  username: tedious
+  website: https://github.com/tedious/JShrink
   description: Javascript minifier in native php.
 
 - name: Stash Bundle
   repo: TedivmStashBundle
-  username: tedivm
-  website: https://github.com/tedivm/TedivmStashBundle
+  username: tedious
+  website: https://github.com/tedious/TedivmStashBundle
   description: The Stash Symfony Bundle.
 
 - name: DovecotTesting
