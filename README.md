@@ -4,24 +4,26 @@ title: Tedious Developments
 permalink: index.html
 ---
 
-Tedious Developments is an organization for the mature software projects that have been spawned from the brain of
-Robert Hafner (aka tedivm).
 
-These are projects that started off as ideas and side projects but have grown in scope and importance. Projects that are
-moved into this organization stop being side projects and gain the full commitment of an open source project.
+The projects released under the Tedious Development banner are an eclectic group with a variety of purposes, but all
+share the same goal of releasing highly usable, stable and well tested projects that ease the lives of other developers.
 
 
-### Requirements
+### Tedious Development Projects-
 
-Projects that live in Tedious Developments must:
+* **are released under a permissive Open Source license.**
+* **maintain a minimum of 90% code coverage with a goal of 95%.**
+* **integrate with Travis CI and Coveralls to track testing.**
+* **maintain Code Styling Enforcement as part of their test suite.**
+* **have Extensive Documentation for developers.**
+* **follow all PSRs that are relevant to the project.**
+* **can be installed through Composer.**
+* **utilize semantic versioning for releases.**
+* **have complete Doc Block for all API functions and code.**
+* **utilize SPL Exceptions for error handling.**
 
-* Be released under a permissive Open Source license.
-* Follow all PSRs that are relevant to the project.
-* Be installable through Composer
-* Main a minimum of 90% code coverage with a goal of 95%.
-* Utilize semantic versioning.
-* Have complete Doc Block for all API functions and code.
-* Integrate with Travis CI and Coveralls to track testing.
-* Maintain Code Styling Enforcement as part of it's test suite.
-* Have Extensive Documentation for developers.
-* Utilize SPL Exceptions for error handling.
+
+### Where next?
+
+Please check out the highlighted projects to the left, or dive into the [Github Organization](https://github.com/tedious) itself for an in depth
+review.
