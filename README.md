@@ -9,7 +9,7 @@ The projects released under the Tedious Development banner are an eclectic group
 share the same goal of releasing highly usable, stable and well tested projects that ease the lives of other developers.
 
 
-### Tedious Development Projects-
+### Tedious Developments' Projects-
 
 * **are released under a permissive Open Source license.**
 * **maintain a minimum of 90% code coverage with a goal of 95%.**
