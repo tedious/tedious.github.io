@@ -4,17 +4,17 @@
   website: http://stash.tedivm.com
   description: The way to store your cache.
 
-- name: JShrink
-  repo: JShrink
-  username: tedivm
-  website: https://github.com/tedivm/JShrink
-  description: Javascript minifier in native php.
-
 - name: Fetch
   repo: Fetch
   username: tedivm
   website: https://github.com/tedivm/fetch
   description: IMAP library that makes reading email easy.
+
+- name: JShrink
+  repo: JShrink
+  username: tedivm
+  website: https://github.com/tedivm/JShrink
+  description: Javascript minifier in native php.
 
 - name: Stash Bundle
   repo: TedivmStashBundle
