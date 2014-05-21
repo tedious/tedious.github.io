@@ -6,8 +6,8 @@
 
 - name: Fetch
   repo: Fetch
-  username: tedivm
-  website: https://github.com/tedivm/fetch
+  username: tedious
+  website: https://github.com/tedious/fetch
   description: IMAP library that makes reading email easy.
 
 - name: JShrink
@@ -24,6 +24,6 @@
 
 - name: DovecotTesting
   repo: DovecotTesting
-  username: tedivm
-  website: https://github.com/tedivm/DovecotTesting
+  username: tedious
+  website: https://github.com/tedious/DovecotTesting
   description: A resettable mail server for use in continious integration of email libraries.
