@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: guzzle
 title: Tedious Developments
 permalink: index.html
 ---
