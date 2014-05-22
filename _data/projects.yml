@@ -1,7 +1,7 @@
 - name: Stash
   repo: Stash
   username: tedious
-  website: http://stash.tedivm.com
+  website: http://www.stashphp.com
   description: The way to store your cache.
 
 - name: Fetch
