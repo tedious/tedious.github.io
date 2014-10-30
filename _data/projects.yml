@@ -4,17 +4,17 @@
   website: http://www.stashphp.com
   description: The way to store your cache.
 
-- name: Fetch
-  repo: Fetch
-  username: tedious
-  website: https://github.com/tedious/fetch
-  description: IMAP library that makes reading email easy.
-
 - name: JShrink
   repo: JShrink
   username: tedious
   website: https://github.com/tedious/JShrink
   description: Javascript minifier in native php.
+
+- name: Fetch
+  repo: Fetch
+  username: tedious
+  website: https://github.com/tedious/fetch
+  description: IMAP library that makes reading email easy.
 
 - name: Stash Bundle
   repo: TedivmStashBundle
