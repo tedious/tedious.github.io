@@ -11,16 +11,16 @@ share the same goal of releasing highly usable, stable and well tested projects 
 
 ### Tedious Developments' Projects-
 
-* **are released under a permissive Open Source license.**
-* **maintain a minimum of 90% code coverage with a goal of 95%.**
-* **integrate with Travis CI and Coveralls to track testing.**
-* **maintain Code Styling Enforcement as part of their test suite.**
-* **have Extensive Documentation for developers.**
-* **follow all PSRs that are relevant to the project.**
-* **can be installed through Composer.**
-* **utilize semantic versioning for releases.**
-* **have complete Doc Block for all API functions and code.**
-* **utilize SPL Exceptions for error handling.**
+* are released under a permissive Open Source license.
+* maintain a minimum of 90% code coverage with a goal of 95%.
+* integrate with Travis CI and Coveralls to track testing.
+* maintain Code Styling Enforcement as part of their test suite.
+* have Extensive Documentation for developers.
+* follow all PSRs that are relevant to the project.
+* can be installed through Composer.
+* utilize semantic versioning for releases.
+* have complete Doc Block for all API functions and code.
+* utilize SPL Exceptions for error handling.
 
 
 ### Where next?
